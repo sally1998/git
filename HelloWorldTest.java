@@ -1,7 +1,10 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
 public class HelloWorldTest{
-  public static void main(String[] args){
+  @Test
+  public void testHelloWorld(){
     System.out.println("");
-    assert true;
-     assert false : "Fail to run test case";
+    assertEquals(1,0);
    }
 }
